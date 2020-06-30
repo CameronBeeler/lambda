@@ -1,0 +1,3 @@
+# Must do CLI from the serverless directory of the code...
+sls deploy -v # to deploy
+sls invoke -f functionname -l
