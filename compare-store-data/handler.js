@@ -1,5 +1,4 @@
-exports.handler = (event, context, callback) => {
+exports.compare = (event, context, callback) => {
   //todo implement
-  callback(null, {message:'the response from lambda!'});
+  callback(null, {message:'the compare response from lambda!'});
 };
-
