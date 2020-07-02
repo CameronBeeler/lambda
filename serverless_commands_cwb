@@ -1,3 +1,8 @@
 # Must do CLI from the serverless directory of the code...
+sls create --template aws-nodejs
+sls create --template aws-python3
 sls deploy -v # to deploy
 sls invoke -f functionname -l
+sls deploy function -f functionname # if only a function changes, to not re-install everything
+sls logs -f functionname -t
+sls remove
